@@ -1,6 +1,8 @@
 #!/usr/bin/env python
+
 """This small utulity is a test program made during a train travel from Milan to Rome.
-   Its purpose is to show file contents using lists to load lines.
+   Its purpose is to show file contents using lists to load lines. I know this could have been
+   done more easily, so do not bother.
 """
 
 import sys
@@ -42,7 +44,7 @@ def main():
     argsCheck()
     rawOutList = listLoad(sys.argv[1])
 
-    # Print cleaning up extra \n line endings
+    # Print without final \n line endings using re.sub()
     for item in rawOutList:
         print(re.sub('\\n', '', item))
     return(0)
