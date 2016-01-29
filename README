@@ -1,2 +1,4 @@
-Just a test README file
+pycat is a small utility to read content of file, just like cat.
+Anyway it is a real dummy thing, made in a train travel, so it does not to many interesting stuff, yet.
+It does not concatenate two file, like real cat, and it down not take file as standard input yet.
 
