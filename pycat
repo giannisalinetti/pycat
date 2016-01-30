@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
-"""This small utulity is a test program made during a train travel from Milan to Rome.
+"""Author: Gianni Salinetti
+   Description: This small utulity is a test program made during a train travel from Milan to Rome.
    Its purpose is to show file contents using lists to load lines. I know this could have been
-   done more easily, so do not bother.
-"""
+   done more easily, so do not bother."""
 
 import sys
 import re
